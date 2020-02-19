@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from "react-dom";
 import Index from './Pages';
+import 'zent/css/index.css';
 function App() {
     return(
         <h1 style={{ color: '#000'}}>hola</h1>

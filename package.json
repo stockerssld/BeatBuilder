@@ -4,16 +4,24 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^4.9.3",
     "axios": "^0.19.2",
+    "gh-pages": "^2.0.1",
+    "lodash": "^4.17.13",
     "parcel-bundler": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
     "react-sound": "^1.2.0",
     "sass": "^1.25.0",
+    "startaudiocontext": "^1.2.1",
     "styled-components": "^5.0.1",
     "tone": "^13.8.25",
-    "uifx": "^2.0.7"
+    "uifx": "^2.0.7",
+    "zent": "^8.2.0"
   },
   "scripts": {
     "start": "parcel public/index.html",
