@@ -3,7 +3,7 @@ import PlayButton from "./PlayButton";
 import TimeSignature from "./TimeSignature";
 import TempoSlider from "./TempoSlider";
 import TempoDisplay from "./TempoDisplay";
-import TapTempo from "./TapTempo";
+
 import ResetButton from "./ResetButton";
 import {ButtonSC, Wrapper} from './ButttonsSC'
 const Buttons = props => (
@@ -21,7 +21,7 @@ const Buttons = props => (
     </Wrapper>
 
     <Wrapper>
-      <TapTempo handleTap={props.handleTap} />
+      
       <TempoDisplay tempo={props.tempo} />
       <TempoSlider tempo={props.tempo} onTempoChange={props.onTempoChange} />
     </Wrapper>

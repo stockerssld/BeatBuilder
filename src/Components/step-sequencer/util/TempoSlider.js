@@ -2,6 +2,7 @@ import React from "react";
 
 import {Slider,TempoSliderSC} from './TempoSliderSC'
 const TempoSlider = props => (
+  
   <TempoSliderSC>
     <Slider
       type="range"
