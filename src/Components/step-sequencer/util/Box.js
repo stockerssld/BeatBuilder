@@ -42,6 +42,8 @@ const useStyles = makeStyles({
 
 function Box (props){
   const classes = useStyles();
+
+  // console.warn(props)
   return(
   <div className={classes.root}>
     {_.map(props.checked[props.row], (isBoxChecked, i) => (
@@ -60,7 +62,7 @@ function Box (props){
           .value()}
         key={i}
       />
-    ))}
+    ))} 
   </div>
   )
 }
